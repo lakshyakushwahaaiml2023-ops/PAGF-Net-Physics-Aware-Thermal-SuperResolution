@@ -163,3 +163,6 @@ Sequential Stage Split: We split the 8 SFT blocks into two distinct stages (Stag
 Physics-Anchored Loss: The PhysicsAwareLoss now monitors both the mid_output and the final_output, ensuring energy conservation is maintained at every depth of the network.
 
 Leaky Mapping: Replaced standard ReLU in the SFT mapping layers with LeakyReLU (0.1) to prevent "dying neurons" in the guidance branch, leading to better edge recovery.
+
+
+###Results of all Models are shown seperately in the Research Models folder
