@@ -1,0 +1,20 @@
+PAGF-Net v2 (Physics-Aware)
+Metric          | Bicubic (Baseline)   | PAGF-Net v2          | Improvement
+--------------------------------------------------------------------------------
+PSNR (dB)       | 33.9122              | 37.1221              | +3.21 dB
+SSIM            | 0.9081               | 0.9453               | +4.09 %
+
+
+
+ON 500 unseen images (Full D4 Ensemble)
+Method                    | PSNR (dB)            | SSIM                 | Improvement
+-------------------------------------------------------------------------------------
+Bicubic Baseline          | 33.9589              | 0.9092               | -
+PAGF-Net v2 (8x TTA)      | 37.5525              | 0.9482               | +3.59 dB
+
+
+STATISTICAL RESULT (N=5000 from set of 70000 Unseen Images)
+------------------------------------------------------------
+Average PSNR:       36.6989 dB
+Standard Deviation: 2.8368
+Confidence:         98% Representative of full dataset

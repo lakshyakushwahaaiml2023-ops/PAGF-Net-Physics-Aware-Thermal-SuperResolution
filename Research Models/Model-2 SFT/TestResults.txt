@@ -1,0 +1,9 @@
+Metric          | Bicubic              | Advanced SR          | Improvement
+---------------------------------------------------------------------------
+PSNR (dB)       | 34.1322              | 37.0793              | +2.95 dB
+SSIM            | 0.9093               | 0.9443               | +3.85 %
+
+FINAL PHASE 2 RESULTS FOR 25000 UNSEEN SAMPLES (Advanced SFT)
+------------------------------------------------------------
+   Average PSNR: 36.9829 dB
+   Consistency:  3.0488
