@@ -165,4 +165,4 @@ Physics-Anchored Loss: The PhysicsAwareLoss now monitors both the mid_output and
 Leaky Mapping: Replaced standard ReLU in the SFT mapping layers with LeakyReLU (0.1) to prevent "dying neurons" in the guidance branch, leading to better edge recovery.
 
 
-###Results of all Models are shown seperately in the Research Models folder
+###Results of all Models are shown seperately in the Research Models folder.
